@@ -31,6 +31,6 @@ class CloakTransformer(VideoTransformerBase):
         return img
 
 st.title("Invisible Cloak App")
-st.write("कैमरे के सामने से हट जाएँ जब background capture हो रहा हो।")
+st.write
 
 webrtc_streamer(key="cloak", video_transformer_factory=CloakTransformer)
